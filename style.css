@@ -1,0 +1,225 @@
+:root{
+    --gbk:rgba(0, 0, 0,.6);
+    --gbkf:rgba(0, 0, 0,.6);
+    --gyl:rgba(224, 108, 7, 0.2);
+    --obsc:#2b2b2b;
+    --gradFoot:linear-gradient(to top,rgba(0,0,0,1),rgba(50, 49, 49, 0.9)) ;
+    --imagenFondo:linear-gradient(to left,black,var(--gbk),var(--gyl),var(--gbk),black), url('./fotos/sala3.avif');
+
+    --gradTitle:linear-gradient(rgba(200,200,200,1),rgba(238, 163, 15, 0.5));
+}
+
+
+
+html{
+    height:100% ;
+}
+
+body{
+    /* colores */
+    background-color: rgb(184, 208, 208);
+    background: var(--imagenFondo);
+    background-size: cover;
+  
+
+    /* Dimentions */
+    width:1366px ;/*Mi laptop creen resolution*/
+    height:768px ;
+
+    /* Margin-paddings */
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+    /* Font */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    /* colores */
+    background-color:#4caf50 ;
+    background: linear-gradient(to right,black,#4caf50,black);
+    color: aliceblue;
+     /* Dimentions */
+     height: 15%; 
+
+     display: flex;
+     justify-content: center;
+     align-items: center;   
+       /*  Font  */
+       font-size: 1.5rem;
+       text-shadow: 1px 1px 1px black;
+}
+
+
+
+.main{
+    
+     height: 75%;
+     display: flex;
+     flex-direction: column;
+     align-items: center; 
+     position: relative;    
+   
+}
+
+    /* Items inside main */
+    .title{
+        text-align: center;
+        
+       
+    }
+
+    #title{
+        font-size: 2rem;
+        color: rgb(239, 237, 231);
+        text-shadow:5px 2px 2px rgb(216, 9, 44) ;
+        
+    }
+    #movie{
+        font-size: 1.8rem;
+        text-shadow:5px 2px 2px rgb(16, 9, 4) ;
+        color: #af904c;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        height:100% ;
+        
+      
+    }
+
+    /* ----Items inside card----- */
+
+            img{
+                /* Dimentions */
+                width:50%;
+                height: 40%;
+                border:rgba(16, 144, 213, 0.439) 2px solid;
+                box-shadow: 20px 30px 20px rgb(50, 95, 185) ;
+                transition: all 3s linear .1s;
+            }
+
+            .img-transition{
+                transform:scale(3.6);
+            }
+
+
+            .description{
+               
+                width: 20%;
+                height: 30%;
+                color: aliceblue;
+                padding:.7rem ;
+                position: absolute;
+                top:20%;
+                left:2rem;
+                font-size: 2rem;
+            
+
+            }
+
+    /* --------------------- */
+
+    button{
+        /* colores */
+       
+       
+        color:aliceblue;
+        background: linear-gradient(to left,black,#2b2b2b,#d42a0c,black);
+        background-image: url('./fotos/controlremoto2.png');
+        background-size: 75%;
+        background-repeat: no-repeat;
+        /* box-shadow: 5px 5px 10px rgb(58, 21, 3); */
+        /* Dimentions */
+        width: 20%;
+        height:5rem ;
+
+        /* Margin-paddings */
+        padding: .5rem;
+        border-radius: 10px;
+        margin-bottom:1rem ;
+        outline:black;
+        position: absolute;
+        top: 80%;
+        left:75%;
+        transform:rotate(10deg);
+        transition: all 1s ease-in-out .1s;
+        /* Font */
+        font-size: 1.5rem;
+        text-shadow: -10px -10px 10px #0e0101;
+        text-align: right;
+    }
+
+    .btn-transition{
+        color:rgb(202, 202, 20);
+        /* background: linear-gradient(to left,black,#2b2b2b,#d4910c,black); */
+        box-shadow: -30px -10px 20px rgb(202, 75, 11);
+
+    }
+    #rayo{
+        position:absolute;
+        width:800px ;
+        height:30px ;
+        /* background-color: rgba(247, 168, 9,.2);
+        box-shadow: -40px -10px 20px rgb(202, 75, 11); */
+      
+        top: 70%;
+        right:10%;
+        transform: rotate(20deg);
+        transition:all 1s linear .01s;
+    }
+
+    .rayo-transition{
+       
+        background-color: rgba(247, 168, 9,.2);
+        box-shadow: -40px -10px 20px rgb(202, 75, 11);
+       
+      
+        
+    }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* colores */
+    background-color: #2b2b2b;
+    background:var(--gradFoot);
+   
+    color: aliceblue;
+     /* Dimentions */
+     height: 10%;
+
+
+      /* Margin-paddings */
+}
+
+
+
+
+@media  (min-width:1920px) {
+    body{
+        width: 100%;
+        height: 100%;
+        background-image:var(--imagenFondo);
+        
+        
+        
+        
+    }
+ 
+} 
+
+@media  (min-width:2560px){
+    body{
+        
+        
+    }
+    
+}

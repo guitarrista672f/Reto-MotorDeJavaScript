@@ -1,0 +1,121 @@
+  [   {
+        "name":"1959 Cadillac Miller-Meteor o Ecto 1",
+
+        "pelicula": "Los cazafantasmas fantasmas 1 y 2",
+        "ruta":"./fotos/a1.jpg",
+        
+        "description":"Aunque la idea original era combinar una ambulancia un coche fúnebre y el Cadillac en tonos negro morado y blanco, al final se desechó la idea por el auto blanco  con luces de ambulancia y equipado con herramientas cazafantasmas que ya conoces, pues era algo más acorde con la esencia de la película y los personajes "
+    },
+    {
+       
+    "name":"1964 Aston Martin DB5",
+
+    "pelicula": "Goldfinger y Operación trueno",
+    "ruta":"./fotos/a2.jpg",
+    
+    "description":"Se le realizaron varias modificaciones para que lo condujera el grandísimo James Bond, entre las más reconocidas están el arachoques de ariete, ametralladoras, asiento eyectable, pantalla de humo, rociador de aceite, pantalla con mapa y más."
+    
+    },
+
+    {
+     "name":"1981 DeLorean DMC",
+
+    "pelicula": "Volver al futuro",
+    "ruta":"./fotos/a3.webp",
+    
+    "description":"Destacó principalmente por su aspecto futurista y la magia del cine al convertirlo en una máquina del tiempo y fue tan especial que se  creó la marca DeLorean Company para restaurar y mejorar estos autos,pues se dejaron de vender en 1980."
+    },
+    
+    
+    
+    {
+        "name":"1932 Ford Coupe",
+    
+    "pelicula": "American Graffiti",
+    "ruta":"./fotos/a4.jpg",
+    
+    "description":"junto al Chevy 55, el Ford 32 consiguió una de las escenas más icónicas del mundo cinematográfico, en la cual el Ford saca al Chevy de la línea de carrera haciéndole dar vueltas y volar."
+    
+    },
+    
+    
+    
+     {  "name":" 1989 Custom – Batimovil",
+    
+    "pelicula":" Batman de Tim Burton",
+    "ruta":"./fotos/a5.webp",
+    
+    "description":"La película reflejó el estilo Art Decó en todos sus aspectos, por lo que tanto Ciudad Gótica como el Batimóvil, diseñado por Anton Furst no están exentos de  este oscuro arte."
+    },
+    
+    
+    
+    {
+    
+        "name":"1973 XB GT Ford Falcon o Interceptor",
+    
+    "pelicula":" Mad Max",
+    "ruta":"./fotos/a6.jpeg",
+    
+    "description":"Aunque su aspecto ya era genial, en la película el equipo de producción le dio un gran aspecto al enyesar un nuevo frontal en la parte delantera con un sobrealimentador,adornar el cuerpo con enormes bengalas y colocar neumáticos muy gruesos."
+    
+    
+    },
+    
+     {   "name":"1969 Mustang",
+    
+    "pelicula":" John Wick",
+    "ruta":"./fotos/a7.gif",
+    
+    "description":"Este es visto como el auto más genial que ha manejado Keanu Reeves, pero lo que lo hace realmente fantástico es que el actor fue a una escuela de manejo de alto rendimiento para que él pudiera rodar toda la escena conduciendo el auto."
+    
+    },
+    
+    
+    
+    {
+    
+        "name":"1948 Ford De Luxe Convertible",
+    
+    "pelicula":" Vaselina",
+    "ruta":"./fotos/a8.jpg",
+    
+    "description":"En la cinta pasan diversos vehículos, pero este es el más especial al ser el auto de los sueños del Danny Zuko, el protagonista de Vaselina; a su vez se cuenta una historia alrededor del auto, pues se saca del deshuesadero y se convierte en el auto donde al final de la película Danny y Sandy vuelan después de la feria."
+    },
+
+
+
+
+
+    {    "name":"1972 Bedford CF Mystery Machine",
+    
+    
+    "pelicula":" Scooby-Doo",
+    "ruta":"./fotos/a9.jpg",
+    
+    "description":"Esta fabulosa camioneta con mucha onda hippie llena de flores y garigolas realizó diversas apariciones como en Scooby Doo Where are you!  (1969-1978), Scooby Doo (2002), Scooby Doo 2 (2004),Scooby Doo! The Mystery Begins (2009) y Scooby Doo! Course of the lake monster (2010)."
+    }
+    ,
+    
+    
+      
+    {
+        "name":"1973 Ford Gran Torino",
+    
+    "pelicula":" El gran Lebowski",
+    "ruta":"./fotos/a10.jpg",
+    
+    "description":"El primer auto que se consideró para esta filmación fue Chrysler LeBaron, pero como no era lo suficientemente grande para que el Sr. Waler Sobchak (Jonh Goodman) se acomodara, por lo que se optó por usar el Gran Torino."}
+]
+
+
+
+
+
+
+
+
+
+
+
+
